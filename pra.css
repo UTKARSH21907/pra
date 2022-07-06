@@ -1,0 +1,75 @@
+body{
+       margin: 0;
+       padding: 0;
+       background-image: url(33237.jpg);
+       background-size:cover;
+       position: fixed;
+}
+#pe{
+       font-size: 2rem;
+       color: rgb(252, 252, 251);
+       text-transform: uppercase;
+}
+#pe:hover{
+color: white;
+cursor: pointer;
+}
+#le{
+       
+       font-size: 1.5rem;
+       text-decoration: none;
+       position: relative;
+       left: 75vw;
+       word-spacing:3em;
+       display: inline-block;
+}
+a{
+       color: rgb(255, 255, 255);
+}
+a:hover{
+       color:orange;
+}
+.main{
+       font-size: 4rem;
+       color: white;
+       font-family: 'Kdam Thmor Pro', sans-serif;
+       position: relative;
+       left: 10vw;
+       top: 10vh;
+}
+.main:hover{
+       text-shadow: 3px 4px rgba(255, 255, 255, 0.488);
+       transition: 1s;
+}
+#rx{
+       color: orange;
+       position: relative;
+       top: -10vh;
+}
+.last{
+       font-size: large;
+       width: 9rem;
+       height: 4rem;
+       position: relative;
+       left: 10vw;
+       top:4vh;
+       transition: 1s;
+}
+#am:hover{
+       background-color: black;
+       color: white;
+       border: 1px solid white;
+       transition: 1s;
+       cursor: pointer;
+}
+#ma{
+       color:white; 
+       background-color: black;
+       border: 1px solid whitesmoke;
+       cursor: pointer;
+}
+#ma:hover{
+       color: black;
+       background-color: white;
+       transition: 1s;
+}
